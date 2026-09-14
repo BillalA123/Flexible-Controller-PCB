@@ -1,13 +1,33 @@
 # Flexible Controller PCB
 
-A custom controller PCB designed in Altium Designer. This repository includes the schematic, PCB layout, component libraries, output-job configuration, and design-rule-check files.
+Handheld flex-PCB controller designed for an educational robotics platform at KiP Robotics.
 
-## Files
+## PCB
 
-- `Sheet2.SchDoc` — Circuit schematic
-- `PCB1.PcbDoc` — PCB layout
-- `Schlib1.SchLib` — Schematic library
-- `PcbLib1.PcbLib` — PCB footprint library
-- `Flexible Controller PCB.PrjPcb` — Altium project file
+<p align="center">
+  <img src="Images/Screenshot%202026-09-13%20191312.png" width="80%" alt="Flexible Controller PCB">
+</p>
 
-Open the `.PrjPcb` file in Altium Designer to view and edit the project.
+## Overview
+
+Designed a handheld controller flex-PCB featuring a joystick, audio amplifier, haptic feedback vibration, and an ESP32 Bluetooth chip for wireless communication with the robot's motor control board.
+
+The controller interfaces with a custom motor controller PCB featuring full Battery Management System (BMS) capabilities, including battery charging, current balancing, thermal monitoring, and overcurrent protection.
+
+### Design Features
+
+- Flexible PCB designed for integration into a handheld controller.
+- Joystick input for controlling the robot.
+- ESP32 Bluetooth connectivity for communication with the motor control board.
+- Integrated audio amplifier.
+- Haptic vibration feedback for user interaction.
+
+## Schematic
+
+<p align="center">
+  <img src="Images/Job2%20(3)-1.png" width="100%" alt="Flexible Controller PCB Schematic">
+</p>
+
+## KiP Robotics
+
+This PCB was developed as part of my work at KiP Robotics, where I led hardware design for a team developing an educational robot focused on making STEM learning more accessible.
